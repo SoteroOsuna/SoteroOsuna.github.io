@@ -5,7 +5,7 @@ header {
 }
 
 body {
-  background: linear-gradient(to right, white, lightgreen);
+  background: linear-gradient(to right, lightgreen, white);
   font-family: "Montserrat";
 }
 
