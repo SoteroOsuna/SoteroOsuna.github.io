@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="styleIMC.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1> Calculadora de Masa Corporal</h1>
+	</header>
+
+  <div class="row">
+    <div class = "column">
+      <form onsubmit="return false" action="">
+        <label for = "masa"> Masa (kilogramos): </label><br>
+          <input type="text" id = "masa" \> <br>
+          <label for = "estatura"> Estatura (metros): </label><br>
+          <input type="text" id = "estatura" \><br>
+          <input type="button" value="Calcular" onclick = "calcularIMC()"\>
+      </form>
+    </div>
+
+    <div class = "column">
+      <h2 id="resultado"> Tu IMC es: </h2>
+      <h2 id="numeroIMC"></h2>
+      <p id="explicacion"></p>
+    </div>
+  </div>
+
+    <script src= "scriptIMC.js"></script>
+
+  </body>
+
+</html>
