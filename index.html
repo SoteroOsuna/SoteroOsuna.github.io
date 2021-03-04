@@ -5,34 +5,150 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
-	<link href="styleIMC.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<header>
-		<h1> Calculadora de Masa Corporal</h1>
-	</header>
+		<div class="title">
+			<h1> Sotero Osuna Gómez </h1>
+			<img src = "profilepic.png" class = "profile-pic">
+          <p>Estudiante del Tec apasionado por aprender cosas nuevas. </p>
+      </div>
+      <hr>
+    </header>
 
-  <div class="row">
-    <div class = "column">
-      <form onsubmit="return false" action="">
-        <label for = "masa"> Masa (kilogramos): </label><br>
-          <input type="text" id = "masa" \> <br>
-          <label for = "estatura"> Estatura (metros): </label><br>
-          <input type="text" id = "estatura" \><br>
-          <input type="button" value="Calcular" onclick = "calcularIMC()"\>
-      </form>
+
+    <div class = "content">
+      <h2> Educación </h2>
+      <h4> Escuelas donde he estudiado </h4>
+        <p> 
+          Preparatoria: Instituto Tecnológico de Estudios Superiores de Monterrey // PrepaTec Multicultural
+        </p>
+        <p> Universidad: Instituto Tecnológico de Estudios Superiores de Monterrey // Ingeniería en Tecnologías Computacionales
+        </p>
     </div>
 
-    <div class = "column">
-      <h2 id="resultado"> Tu IMC es: </h2>
-      <h2 id="numeroIMC"></h2>
-      <p id="explicacion"></p>
+    <hr>
+
+    <div class="content">
+        <h2> Lenguajes de programación</h2>
+        <h4> Estos son los lenguajes en los que mejor puedo programar</h4>
+        <table>
+            <tr>
+                <th>Lenguaje</th>
+                <th>Nivel de Dominio</th>
+            </tr>
+            <tr>
+                <td> Python</td>
+                <td> 85%</td>
+            </tr>
+            <tr>
+                <td> C++</td>
+                <td> 75%</td>
+            </tr>
+            <tr>
+                <td> Swift</td>
+                <td> 65%</td>
+            </tr>
+      </table>
     </div>
+
+    <hr>
+
+    <div class="contenido">
+      <h2> Proyectos</h2>
+      <h4> Estas son muestras de proyectos que he desarrollado en mi carrera </h4>
+        <table>
+            <tr>
+                <th>Proyecto</th>
+                <th>Fecha</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td> Bullseye</td>
+                <td> Enero 2020</td>
+                <td> Juego que hice siguiendo paso a paso un curso de Swift en Raywenderlich.com </td>
+            </tr>
+            <tr>
+                <td> Apple Pie </td>
+                <td> Enero 2020</td>
+                <td> Juego que hice siguiendo paso a paso un curso de Swift con ayuda de un libro de Apple </td>
+            </tr>
+            <tr>
+                <td> Proyecto de IoT </td>
+                <td> Junio 2020 </td>
+                <td> Proyecto que incluye conceptos de diferentes materias e implementa varios sistemas. Fue el proyecto de un bloque </td>
+            </tr>
+        </table>
+        <h3>Bullseye</h2> 
+        <img src="Screenshot_BE.png" class="screenshots">
+      </div>
+      <h3> Apple Pie</h3>
+      <img src="Screenshot_AA.png" class="screenshots">
+    </div>
+    <h3>Proyecto IoT</h3>
+    <img src="Screenshot_PI.png" class="screenshots">
   </div>
 
-    <script src= "scriptIMC.js"></script>
+  <hr>
+
+  <div class="contenido">
+    <h2>Hobbies</h2>
+    <h4>Lo que disfruto hacer es: </h4>
+    <ul>
+      <li>Leer</li>
+      <li>Aprender Idiomas</li>
+      <li>Ejercicio</li>
+      <li>Programar</li>
+    </ul>
+  </div> 
+
+  <hr>
+  
+  <div class="contenido">
+    <h2> Obras Favoritas </h2>
+    <h4> Mis obras artísticas favoritas, sin importar el medio </h4>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Autor</th>
+        <th>Género</th>
+        <th>Medio</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td> <a href = "https://es.wikipedia.org/wiki/La_sombra_del_viento"> La Sombra del Viento </a> </td>
+        <td> Carlos Ruiz Zafón </td>
+        <td> Suspenso </td>
+        <td> Literatura </td>
+        <td> Excelente construcción del mundo y trama emocionante </td>
+      </tr>
+      <tr>
+        <td> <a href = "https://es.wikipedia.org/wiki/Interstellar"> Interestelar </a> </td>
+        <td> Christopher Nolan </td>
+        <td> Ciencia Ficción </td>
+        <td> Cine </td>
+        <td> Conceptos físicos fieles a la realidad (en su mayoría), excelente música, dirección y actuación</td>
+      </tr>
+      <tr>
+        <td> <a href= "https://es.wikipedia.org/wiki/Avatar:_la_leyenda_de_Aang">Avatar: La Leyenda de Aang </a> </td>
+        <td>  Michael Dante DiMartino y Bryan Konietzko </td>
+        <td> Aventura </td>
+        <td> TV </td>
+        <td> Excelente historia, buen desarrollo de personajes, divertida para cualquier edad, verdaderamente una obra maestra </td> 
+      </tr>
+
+      <tr>
+        <td> <a href="https://es.wikipedia.org/wiki/Random_Access_Memories"> Random Access Memories </a></td>
+        <td> Daft Punk </td>
+        <td> Electrónica </td>
+        <td> Música </td>
+        <td> Excelentes melodías, este álbum tiene de todo y en mi opinión, el mejor del grupo francés.  </td> 
+      </tr>
+
+        </table>
+  </div>
 
   </body>
-
 </html>
